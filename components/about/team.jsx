@@ -4,48 +4,7 @@ import DirectorQuotes from './DirectorQuotes';
 import Section from '../section';
 import MemberIcon from '../memberIcon';
 
-const directors = [
-  {
-    name: 'Ali Karaki',
-    title: 'Co-Executive Director',
-    image: '',
-    linkedIn: 'https://www.linkedin.com/in/karaki-ali/',
-  },
-  {
-    name: 'Mohamed Louai Bou Zaher',
-    title: 'Co-Executive Director',
-    image: '',
-    linkedIn: 'https://www.linkedin.com/in/louaibouzaher/',
-  },
-  {
-    name: 'Osama Iskandarani',
-    title: 'Director of Engineering',
-    image: '',
-    linkedIn: 'https://www.linkedin.com/in/osama-i-a6370122a/',
-  },
-  {
-    name: 'Johnny Jabbour',
-    title: 'Outreach Manager',
-    image: '',
-    linkedIn: 'https://www.linkedin.com/in/johnny-jabbour/',
-  },
-  {
-    name: 'Joseph Chaaban',
-    title: 'Product Manager',
-    image: '',
-    linkedIn: 'https://www.linkedin.com/in/joseph-chaaban/',
-  },
-  {
-    name: 'Tracy Mansour',
-    title: 'Operations Manager',
-    image: '',
-    linkedIn: 'https://www.linkedin.com/in/johnny-jabbour/',
-  },
-  // Add more member objects as needed
-];
-
 function Team({ directorQuotes, members, alumni }) {
-  members = directors;
   return (
     <Section>
       <Container>

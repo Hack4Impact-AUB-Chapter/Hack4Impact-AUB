@@ -14,8 +14,8 @@ function Footer() {
             <p>
               For all inquiries of partnership or sponsorship, please contact us at{' '}
               {/* TODO: Update this for your university! */}
-              <a className="email-link" href="mailto:contanct@hack4impact.org">
-                contact@hack4impact.org
+              <a className="email-link" href="mailto:aub@hack4impact.org">
+                aub@hack4impact.org
               </a>
               .
             </p>
@@ -61,16 +61,16 @@ function Footer() {
             <ul>
               {/* TODO: Update these for your university! */}
               <li>
-                <a href="https://www.linkedin.com/company/hack4impact/mycompany/">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/hack4impact-aub-chapter/">LinkedIn</a>
               </li>
               <li>
-                <a href="https://github.com/hack4impact">Github</a>
+                <a href="https://github.com/Hack4Impact-AUB-Chapter">Github</a>
               </li>
               <li>
                 <a href="https://medium.com/hack4impact">Blog</a>
               </li>
               <li>
-                <a href="mailto:contact@hack4impact.org">Email</a>
+                <a href="mailto:aub@hack4impact.org">Email</a>
               </li>
               <li>
                 <a href="https://www.notion.so/h4i">Notion & Wiki</a>
